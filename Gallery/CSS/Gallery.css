@@ -1,0 +1,173 @@
+﻿.gridDiv {
+    width: 270px;
+    height: 350px;
+    border: 1px solid darkgrey;
+    border-radius: 5px;
+    float: left;
+    margin: 20px;
+    text-align: center;
+}
+
+.displayCountDiv {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: darkslategrey;
+}
+
+.galleryView {
+    width: 260px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Century Schoolbook';
+}
+
+.titleOnImg {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    display: table-cell;
+    vertical-align: bottom;
+    font-family: 'Century Schoolbook';
+    font-style: italic;
+}
+
+.titleOnImg:hover {
+    background: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
+}
+
+
+.test {
+    width: 208px;
+    height: 315px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    border: 1px solid darkgrey;
+    margin: 20px;
+    text-align: center;
+}
+
+.test:hover {
+    box-shadow: 0 8px 12px 0 rgba(64, 64, 144, 0.3), 0 6px 20px 0 rgba(64, 64, 144, 0.3);
+}
+
+.test .imgDiv {
+    width: 208px;
+    height: 240px;
+}
+
+.imgDiv {
+    overflow: hidden;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.detailsView {
+    width: 95%;
+    border-bottom: 2px solid gray;
+    padding-top: 25px;
+    margin-left: 2.5%;
+    min-height: 300px;
+    display: none;
+}
+
+.detailsView .imgDiv {
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    min-width: 200px;
+    max-width: 30%;
+    padding: 10px;
+    min-height: 180px;
+}
+
+.styleView {
+    border: 1px solid black;
+    width: 240px;
+    height: 30px;
+    position: absolute;
+    top: 600px;
+    right: 11%;
+    z-index: 2;
+    border-radius: 5px;
+}
+
+.styleViewType {
+    float: left;
+    padding-top: 2px;
+    width: 119px;
+    height: 100%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.styleViewType span {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.styleViewType:hover {
+    box-shadow: 0 2px 4px 2px rgba(64, 64, 144, 0.3), 0 3px 6px 2px rgba(64, 64, 144, 0.3);
+    color: #6060A0;
+}
+
+
+.lblTitleLink:hover {
+    color: red;
+}
+
+.editable {
+    width: 218px;
+    min-width: 150px;
+}
+
+.insertBtn {
+    width: 200px;
+    height: 40px;
+    border-radius: 6px;
+    transition-duration: 0.1s;
+    -webkit-transition-duration: 0.1s;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+.insertBtn:hover {
+    color: red;
+    border: 2px solid red;
+    background: white;
+    box-shadow: 0 12px 18px 0 rgba(64,64,144,0.4), 0 24px 26px 0 rgba(64,64,144,0.3);
+}
+
+.btnInsert1 {
+    position: absolute;
+    top: 326px;
+    right: 11%;
+    z-index: 2;
+}
+
+.fixedInsertBtn {
+    position: fixed;
+    top: 86px;
+    right: 11%;
+    z-index: 2;
+}

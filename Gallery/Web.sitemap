@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Homepage.aspx" title="Home"  description="Homepage">
+    <siteMapNode url="~/Trending.aspx" title="Trending"  description="Trending" />
+    <siteMapNode url="~/Gallery.aspx" title="Gallery"  description="Gallery">
+      <siteMapNode url="~/GalleryShowDown.aspx" title="Gallery Details"  description="Gallery Details" />
+      <siteMapNode url="~/GalleryDetails.aspx" title="Product Details"  description="Product Details" />
+    </siteMapNode>
+    <siteMapNode url="~/Cosplay.aspx" title="Cosplay"  description="Cosplay" />
+    <siteMapNode url="~/Miniature.aspx" title="Miniature"  description="Miniature" />
+    <siteMapNode url="~/ShoppingCart.aspx" title="Shopping Cart" description="Shopping Cart" />
+    <siteMapNode url="~/WishList.aspx" title="Wishing List" description="Wishing List" />
+    <siteMapNode url="~/MyAccount.aspx" title="My Account"  description="My Account">
+      <siteMapNode url="~/MyGallery.aspx" title="My Gallery"  description="My Gallery">
+        <siteMapNode url="~/MyGalleryInsert.aspx" title="Add New Gallery"  description="Add New Gallery" />
+        <siteMapNode url="~/MyGalleryShowDown.aspx" title="My Gallery Details"  description="My Gallery Details" />
+      </siteMapNode>
+      <siteMapNode url="~/New.aspx" title="My Products"  description="My Products">
+        <siteMapNode url="~/NewInsert.aspx" title="Add New Product"  description="Add New Product" />
+      </siteMapNode>
+      <siteMapNode url="~/PurchaseHistory.aspx" title="Purchase History"  description="Purchase History" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

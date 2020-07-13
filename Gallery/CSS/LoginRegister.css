@@ -1,0 +1,20 @@
+﻿
+.LogRegBtn {
+    position: relative;
+    width: 140px;
+    height: 28px;
+    margin-top: 12px;
+    clear: none;
+    transition-duration: 0.1s;
+    -webkit-transition-duration: 0.1s;
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+    .LogRegBtn:hover {
+        color: red;
+        border: 2px solid red;
+        background: white;
+        box-shadow: 0 12px 18px 0 rgba(64,64,144,0.4), 0 24px 26px 0 rgba(64,64,144,0.3);
+    }
